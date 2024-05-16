@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/740b5f1c-6dd0-40a1-a501-55db6dfc7c87/cb915a45-c6b6-4298-9539-2c2a74e546d3/IN-en-20210510-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.signin-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content {
+    max-width: 700px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    width: 300px;
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.get-started-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo" class="logo">
+            <button class="signin-btn">Sign In</button>
+        </header>
+        <div class="content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-container">
+                <input type="email" placeholder="Email address">
+                <button class="get-started-btn">Get Started &gt;</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
